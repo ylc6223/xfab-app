@@ -7,30 +7,61 @@
         mc:Ignorable="d"
         Title="WindowWrapPanel" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <StackPanel Orientation="Horizontal">
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-        </StackPanel>
+        <!-- <Grid.RowDefinitions> -->
+        <!--     <RowDefinition></RowDefinition> -->
+        <!--     <RowDefinition></RowDefinition> -->
+        <!--     <RowDefinition></RowDefinition> -->
+        <!-- </Grid.RowDefinitions> -->
+        <!-- <Grid.ColumnDefinitions> -->
+        <!--     <ColumnDefinition></ColumnDefinition> -->
+        <!--     <ColumnDefinition></ColumnDefinition> -->
+        <!-- </Grid.ColumnDefinitions> -->
+        <!-- <StackPanel Orientation="Horizontal"> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!-- </StackPanel> -->
         <!-- <WrapPanel Orientation="Vertical" Grid.Row="1"> -->
-        <WrapPanel Orientation="Horizontal" Grid.Row="1">
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-            <Button Width="100" Height="40">button</Button>
-        </WrapPanel>
+        <!-- wrappanel会依次排列内部的元素直到无法放下进行换行 -->
+        <!-- <WrapPanel Orientation="Horizontal" Grid.Row="1"> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!--     <Button Width="100" Height="40">button</Button> -->
+        <!-- </WrapPanel> -->
+        
+        <!-- <DockPanel Grid.Row="2" LastChildFill="False"> -->
+        <!--     <Button Width="100" Height="50">A</Button> -->
+        <!--     <Button Width="100" Height="50">B</Button> -->
+        <!--     <Button Width="100" Height="50">C</Button> -->
+        <!--     <Button Width="100" Height="50">D</Button> -->
+        <!-- </DockPanel> -->
+        
+        <!-- dock船坞 停靠 -->
+        <!-- <DockPanel Grid.Row="2" LastChildFill="False"> -->
+        <!--     <Button DockPanel.Dock="Left" Width="100" Height="50">A</Button> -->
+        <!--     <Button DockPanel.Dock="Right" Width="100" Height="50">B</Button> -->
+        <!--     <Button DockPanel.Dock="Top" Width="100" Height="50">C</Button> -->
+        <!--     <Button DockPanel.Dock="Bottom" Width="100" Height="50">D</Button> -->
+        <!-- </DockPanel> -->
+        
+        <!-- 在有限空间内均分剩余空间 平均分配 -->
+        <UniformGrid Grid.Row="2" Columns="3" Rows="3">
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+            <Button></Button>
+        </UniformGrid>
     </Grid>
 </Window>

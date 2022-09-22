@@ -1,0 +1,31 @@
+﻿<Window x:Class="xfab_app.DataTemplate.DataBinding1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.DataTemplate"
+        mc:Ignorable="d"
+        Title="DataBinding1" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Grid" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Code" Binding="{Binding Code}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
+                <!-- <DataGridTextColumn Header="操作"></DataGridTextColumn> -->
+                <DataGridTemplateColumn Header="action">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <Button Content="删除"></Button>
+                                <Button Content="复制"></Button>
+                                <Button Content="保存"></Button>
+                                <Border Width="10" Height="10" Background="{Binding Code}"></Border>
+                                <TextBlock Margin="10,0" Text="{Binding Name}"></TextBlock>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
