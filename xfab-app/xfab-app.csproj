@@ -50,6 +50,9 @@
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
         </ApplicationDefinition>
+        <Compile Include="Codes\Tutorial.xaml.cs">
+          <DependentUpon>Tutorial.xaml</DependentUpon>
+        </Compile>
         <Compile Include="Controls\WindowStackPanel.xaml.cs">
           <DependentUpon>WindowStackPanel.xaml</DependentUpon>
         </Compile>
@@ -77,6 +80,20 @@
         <Compile Include="UserControls\MyControls.xaml.cs">
           <DependentUpon>MyControls.xaml</DependentUpon>
         </Compile>
+        <Compile Include="WpfBinding\Index.xaml.cs">
+          <DependentUpon>Index.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="WpfBinding\Index2.xaml.cs">
+          <DependentUpon>Index2.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="WpfBinding\Index3.xaml.cs">
+          <DependentUpon>Index3.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="WpfBinding\Index4.xaml.cs">
+          <DependentUpon>Index4.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="WpfBinding\Test.cs" />
+        <Page Include="Codes\Tutorial.xaml" />
         <Page Include="Controls\WindowStackPanel.xaml" />
         <Page Include="Controls\WindowWrapPanel.xaml" />
         <Page Include="DataTemplate\DataBinding.xaml" />
@@ -98,6 +115,10 @@
         <Page Include="UserControls\CustomControls.xaml" />
         <Page Include="UserControls\MyStyleSheet.xaml" />
         <Page Include="UserControls\MyControls.xaml" />
+        <Page Include="WpfBinding\Index.xaml" />
+        <Page Include="WpfBinding\Index2.xaml" />
+        <Page Include="WpfBinding\Index3.xaml" />
+        <Page Include="WpfBinding\Index4.xaml" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs">

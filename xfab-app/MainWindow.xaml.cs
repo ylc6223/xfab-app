@@ -1,4 +1,6 @@
-﻿namespace xfab_app
+﻿using xfab_app.WpfBinding;
+
+namespace xfab_app
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

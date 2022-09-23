@@ -9,11 +9,15 @@
     <Grid>
         <DataGrid x:Name="Grid" AutoGenerateColumns="False" CanUserAddRows="False">
             <DataGrid.Columns>
+                <!-- 文本列 -->
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
                 <!-- <DataGridTextColumn Header="操作"></DataGridTextColumn> -->
-                <DataGridTemplateColumn Header="action">
+               <!-- 模板列 -->
+                <DataGridTemplateColumn Header="操作">
+                    <!-- 单元格模板 -->
                     <DataGridTemplateColumn.CellTemplate>
+                        <!-- 数据模板 -->
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
                                 <Button Content="删除"></Button>

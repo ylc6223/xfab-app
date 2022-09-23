@@ -1,0 +1,21 @@
+﻿<Window x:Class="xfab_app.WpfBinding.Index3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.WpfBinding"
+        mc:Ignorable="d"
+        Title="Index3" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <!-- elementname 控件之间的绑定 -->
+            <Slider x:Name="slider1" Margin="5"></Slider>
+            <!-- onetime 只绑定最初的值,之后都不在发生变化 类似于vue里面的once -->
+            <TextBox Text="{Binding ElementName=slider1,Path=Value,Mode=OneTime}" Margin="5" Height="30"></TextBox>
+            <!-- oneway单向绑定，数据源驱动视图，视图不能改变数据源 -->
+            <TextBox Text="{Binding ElementName=slider1,Path=Value,Mode=OneWay}" Margin="5" Height="30"></TextBox>
+            <!-- oneway单向绑定，视图驱动数据源，数据源不能改变视图 -->
+            <TextBox Text="{Binding ElementName=slider1,Path=Value,Mode=OneWayToSource}" Margin="5" Height="30"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>

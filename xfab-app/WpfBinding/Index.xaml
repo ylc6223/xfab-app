@@ -1,0 +1,17 @@
+﻿<Window x:Class="xfab_app.WpfBinding.Index"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.WpfBinding"
+        mc:Ignorable="d"
+        Title="Index" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <Slider x:Name="slider" Margin="5" ValueChanged="OnValueChanged"></Slider>
+            <TextBox x:Name="a" Margin="5" Height="30" TextChanged="A_OnTextChanged"></TextBox>
+            <TextBox x:Name="b" Margin="5" Height="30" TextChanged="A_OnTextChanged"></TextBox>
+            <TextBox x:Name="c" Margin="5" Height="30" TextChanged="A_OnTextChanged"></TextBox>
+        </StackPanel>
+    </Grid>
+</Window>
