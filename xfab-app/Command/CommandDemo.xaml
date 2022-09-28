@@ -1,0 +1,14 @@
+﻿<Window x:Class="xfab_app.Command.CommandDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.Command"
+        mc:Ignorable="d"
+        Title="CommandDemo" Height="450" Width="800">
+    <Grid>
+        <!-- 视图跟逻辑进行解耦 -->
+        <!-- <Button Click="ButtonBase_OnClick">click</Button> -->
+        <Button Command="{Binding ShowCommand}">click</Button>
+    </Grid>
+</Window>

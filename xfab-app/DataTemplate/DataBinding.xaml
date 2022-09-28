@@ -18,29 +18,29 @@
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
-            
-            <!-- <ListBoxItem> -->
-            <!--     <StackPanel Orientation="Horizontal"> -->
-            <!--         <Border Width="10" Height="10" Background="Red"> -->
-            <!--         </Border> -->
-            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
-            <!--     </StackPanel> -->
-            <!-- </ListBoxItem> -->
-            <!-- <ListBoxItem> -->
-            <!--     <StackPanel Orientation="Horizontal"> -->
-            <!--         <Border Width="10" Height="10" Background="Red"> -->
-            <!--         </Border> -->
-            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
-            <!--     </StackPanel> -->
-            <!-- </ListBoxItem> -->
-            <!-- <ListBoxItem> -->
-            <!--     <StackPanel Orientation="Horizontal"> -->
-            <!--         <Border Width="10" Height="10" Background="Red"> -->
-            <!--         </Border> -->
-            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
-            <!--     </StackPanel> -->
-            <!-- </ListBoxItem> -->
         </ListBox>
+        <!-- <ListBoxItem> -->
+            <!--     <StackPanel Orientation="Horizontal"> -->
+            <!--         <Border Width="10" Height="10" Background="Red"> -->
+            <!--         </Border> -->
+            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
+            <!--     </StackPanel> -->
+            <!-- </ListBoxItem> -->
+            <!-- <ListBoxItem> -->
+            <!--     <StackPanel Orientation="Horizontal"> -->
+            <!--         <Border Width="10" Height="10" Background="Red"> -->
+            <!--         </Border> -->
+            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
+            <!--     </StackPanel> -->
+            <!-- </ListBoxItem> -->
+            <!-- <ListBoxItem> -->
+            <!--     <StackPanel Orientation="Horizontal"> -->
+            <!--         <Border Width="10" Height="10" Background="Red"> -->
+            <!--         </Border> -->
+            <!--         <TextBlock Margin="10,0" Text="Red"/> -->
+            <!--     </StackPanel> -->
+            <!-- </ListBoxItem> -->
+
     </Grid>
 </Window>
  

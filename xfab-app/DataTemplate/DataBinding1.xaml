@@ -13,7 +13,8 @@
                 <DataGridTextColumn Header="Code" Binding="{Binding Code}"></DataGridTextColumn>
                 <DataGridTextColumn Header="Name" Binding="{Binding Name}"></DataGridTextColumn>
                 <!-- <DataGridTextColumn Header="操作"></DataGridTextColumn> -->
-               <!-- 模板列 -->
+               
+                <!-- 模板列 -->
                 <DataGridTemplateColumn Header="操作">
                     <!-- 单元格模板 -->
                     <DataGridTemplateColumn.CellTemplate>

@@ -53,6 +53,11 @@
         <Compile Include="Codes\Tutorial.xaml.cs">
           <DependentUpon>Tutorial.xaml</DependentUpon>
         </Compile>
+        <Compile Include="Command\CommandDemo.xaml.cs">
+          <DependentUpon>CommandDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Command\MainViewModel.cs" />
+        <Compile Include="Command\MyCommand.cs" />
         <Compile Include="Controls\WindowStackPanel.xaml.cs">
           <DependentUpon>WindowStackPanel.xaml</DependentUpon>
         </Compile>
@@ -94,6 +99,7 @@
         </Compile>
         <Compile Include="WpfBinding\Test.cs" />
         <Page Include="Codes\Tutorial.xaml" />
+        <Page Include="Command\CommandDemo.xaml" />
         <Page Include="Controls\WindowStackPanel.xaml" />
         <Page Include="Controls\WindowWrapPanel.xaml" />
         <Page Include="DataTemplate\DataBinding.xaml" />
