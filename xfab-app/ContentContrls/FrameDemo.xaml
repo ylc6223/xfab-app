@@ -1,0 +1,16 @@
+﻿<Window x:Class="xfab_app.ContentContrls.WindowFrame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xfab_app.ContentContrls"
+        mc:Ignorable="d"
+        Title="WindowFrame" Height="450" Width="800">
+    <Grid>
+        <Button Content="前往b站" Click="gotoBaidu" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0"></Button>
+        <!--<Frame Name="islandFrame" Source="IslandFrameContent.xaml" />-->
+        <!--<Frame Name="islandFrame" Source="https://learn.microsoft.com/zh-cn/dotnet/api/system.windows.controls.frame?view=windowsdesktop-6.0" VerticalAlignment="Top"  HorizontalAlignment="Center" Width="700" Height="300" Margin="30,80,0,0" NavigationUIVisibility="Visible"/>-->
+        <!--<Frame Name="islandFrame" Source="..\Pages\MyPage.xaml" HorizontalAlignment="Center" Width="700" Height="300" Margin="30,80,0,0" NavigationUIVisibility="Visible"></Frame>-->
+        <Frame Name="islandFrame" Source="https://juejin.cn/" HorizontalAlignment="Center" Width="700" Height="300" Margin="30,80,0,0" NavigationUIVisibility="Visible" LoadCompleted="islandFrame_LoadCompleted"></Frame>
+    </Grid>
+</Window>

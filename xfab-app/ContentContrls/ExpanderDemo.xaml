@@ -1,0 +1,23 @@
+﻿<Window x:Class="xfab_app.ContentContrls.WindowExpander"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:xfab_app.ContentContrls"
+        mc:Ignorable="d"
+        Title="WindowExpander" Height="450" Width="800">
+    <Grid>
+        <Expander Header="collapse" FontSize="16" Foreground="Orange" IsExpanded="True" BorderThickness="1" BorderBrush="Green" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <!--Orientation控制内部元素的排列方向 isexpanded默认展开-->
+            <!--要使控件正常工作 当设置expanddirection为down或者up时 不能设置高度-->
+            <!--当设置expanddirection为left或者right时 不能设置宽度-->
+            <StackPanel Orientation="Vertical">
+                <CheckBox>c#</CheckBox>
+                <CheckBox>c++</CheckBox>
+                <CheckBox>java</CheckBox>
+                <CheckBox>javascript</CheckBox>
+            </StackPanel>
+        </Expander>
+        
+    </Grid>
+</Window>

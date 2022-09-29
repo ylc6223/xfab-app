@@ -1,0 +1,12 @@
+﻿<Window x:Class="xfab_app.ContentContrls.BorderDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.ContentContrls"
+        mc:Ignorable="d"
+        Title="BorderDemo" Height="450" Width="800">
+    <Grid>
+        <Border Width="200" Height="80" Background="Aquamarine" BorderBrush="Brown" BorderThickness="5" CornerRadius="5"></Border>
+    </Grid>
+</Window>

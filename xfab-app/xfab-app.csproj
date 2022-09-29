@@ -58,10 +58,57 @@
         </Compile>
         <Compile Include="Command\MainViewModel.cs" />
         <Compile Include="Command\MyCommand.cs" />
-        <Compile Include="Controls\WindowStackPanel.xaml.cs">
+        <Compile Include="ContentContrls\BorderDemo.xaml.cs">
+          <DependentUpon>BorderDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\ButtonDemo.xaml.cs">
+          <DependentUpon>ButtonDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\CheckBoxDemo.xaml.cs">
+          <DependentUpon>CheckBoxDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\LabelDemo.xaml.cs">
+          <DependentUpon>LabelDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\RadioButtonDemo.xaml.cs">
+          <DependentUpon>RadioButtonDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\TextBlock.xaml.cs">
+          <DependentUpon>TextBlock.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\CheckBoxDemo1.xaml.cs">
+          <DependentUpon>CheckBoxDemo1.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\ExpanderDemo.xaml.cs">
+          <DependentUpon>ExpanderDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\FrameDemo.xaml.cs">
+          <DependentUpon>FrameDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\GroupBoxDemo.xaml.cs">
+          <DependentUpon>GroupBoxDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\ToolTipDemo.xaml.cs">
+          <DependentUpon>ToolTipDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="CustomControls\CustomControls.xaml.cs" />
+        <Compile Include="DataBinging\SDKSample\MyData.cs" />
+        <Compile Include="DataBinging\WindowDataBinding.xaml.cs">
+          <DependentUpon>WindowDataBinding.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="Example\WindowMoveBox.xaml.cs">
+          <DependentUpon>WindowMoveBox.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="LayoutControls\Layout1.xaml.cs">
+          <DependentUpon>Layout1.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="LayoutControls\Layout2.xaml.cs">
+          <DependentUpon>Layout2.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="LayoutControls\WindowStackPanel.xaml.cs">
           <DependentUpon>WindowStackPanel.xaml</DependentUpon>
         </Compile>
-        <Compile Include="Controls\WindowWrapPanel.xaml.cs">
+        <Compile Include="LayoutControls\WindowWrapPanel.xaml.cs">
           <DependentUpon>WindowWrapPanel.xaml</DependentUpon>
         </Compile>
         <Compile Include="DataTemplate\DataBinding.xaml.cs">
@@ -70,12 +117,7 @@
         <Compile Include="DataTemplate\DataBinding1.xaml.cs">
           <DependentUpon>DataBinding1.xaml</DependentUpon>
         </Compile>
-        <Compile Include="LayoutDemo\Layout1.xaml.cs">
-          <DependentUpon>Layout1.xaml</DependentUpon>
-        </Compile>
-        <Compile Include="LayoutDemo\Layout2.xaml.cs">
-          <DependentUpon>Layout2.xaml</DependentUpon>
-        </Compile>
+        <Compile Include="Pages\MyPage.xaml.cs" />
         <Compile Include="UserControls\CustomControls.xaml.cs">
           <DependentUpon>CustomControls.xaml</DependentUpon>
         </Compile>
@@ -100,12 +142,26 @@
         <Compile Include="WpfBinding\Test.cs" />
         <Page Include="Codes\Tutorial.xaml" />
         <Page Include="Command\CommandDemo.xaml" />
-        <Page Include="Controls\WindowStackPanel.xaml" />
-        <Page Include="Controls\WindowWrapPanel.xaml" />
+        <Page Include="ContentContrls\BorderDemo.xaml" />
+        <Page Include="ContentContrls\ButtonDemo.xaml" />
+        <Page Include="ContentContrls\CheckBoxDemo.xaml" />
+        <Page Include="ContentContrls\LabelDemo.xaml" />
+        <Page Include="ContentContrls\RadioButtonDemo.xaml" />
+        <Page Include="ContentContrls\TextBlock.xaml" />
+        <Page Include="ContentContrls\CheckBoxDemo1.xaml" />
+        <Page Include="ContentContrls\ExpanderDemo.xaml" />
+        <Page Include="ContentContrls\FrameDemo.xaml" />
+        <Page Include="ContentContrls\GroupBoxDemo.xaml" />
+        <Page Include="ContentContrls\ToolTipDemo.xaml" />
+        <Page Include="CustomControls\CustomControls.xaml" />
+        <Page Include="DataBinging\WindowDataBinding.xaml" />
+        <Page Include="Example\WindowMoveBox.xaml" />
+        <Page Include="LayoutControls\Layout1.xaml" />
+        <Page Include="LayoutControls\Layout2.xaml" />
+        <Page Include="LayoutControls\WindowStackPanel.xaml" />
+        <Page Include="LayoutControls\WindowWrapPanel.xaml" />
         <Page Include="DataTemplate\DataBinding.xaml" />
         <Page Include="DataTemplate\DataBinding1.xaml" />
-        <Page Include="LayoutDemo\Layout1.xaml" />
-        <Page Include="LayoutDemo\Layout2.xaml" />
         <Page Include="MainWindow.xaml">
             <Generator>MSBuild:Compile</Generator>
             <SubType>Designer</SubType>
@@ -118,6 +174,7 @@
             <DependentUpon>MainWindow.xaml</DependentUpon>
             <SubType>Code</SubType>
         </Compile>
+        <Page Include="Pages\MyPage.xaml" />
         <Page Include="UserControls\CustomControls.xaml" />
         <Page Include="UserControls\MyStyleSheet.xaml" />
         <Page Include="UserControls\MyControls.xaml" />

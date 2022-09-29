@@ -1,0 +1,32 @@
+﻿<Window x:Class="xfab_app.DataBinging.WindowDataBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.DataBinging"
+        xmlns:c="clr-namespace:xfab_app.DataBinging.SDKSample"
+        mc:Ignorable="d"
+        Title="WindowDataBinding" Height="450" Width="800"
+        Loaded="WindowDataBinding_OnLoaded"
+        >
+    <Grid>
+        <!-- resource 获取或设置本地定义的资源字典 -->
+        <!-- <Grid.Resources> -->
+            <!-- 定义字典的key -->
+            <!-- <c:MyData x:Key="myDataSource"/> -->
+        <!-- </Grid.Resources> -->
+        <!-- DataContext 获取或设置  元素参与数据绑定时的数据上下文 -->
+        <!-- <Grid.DataContext> -->
+        <!--     <Binding Source="{StaticResource myDataSource}"/> -->
+        <!-- </Grid.DataContext> -->
+        <!-- 因为这边button是grid的子元素因此grid下绑定的数据源可以被其他子元素进行使用 -->
+        <!-- <Button Background="{Binding Path=ColorName}" -->
+        <!--         Width="{Binding Path=Width}" Height="30"> -->
+        <!--     I am bound to be RED! -->
+        <!-- </Button> -->
+        
+        
+        <Label Name="myLabel" Content="{Binding Path=Title}" FontSize="50" FontWeight="Bold"></Label>
+    </Grid>
+</Window>
+ 
