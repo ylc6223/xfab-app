@@ -73,6 +73,9 @@
         <Compile Include="ContentContrls\RadioButtonDemo.xaml.cs">
           <DependentUpon>RadioButtonDemo.xaml</DependentUpon>
         </Compile>
+        <Compile Include="ContentContrls\RichTextBoxDemo.xaml.cs">
+          <DependentUpon>RichTextBoxDemo.xaml</DependentUpon>
+        </Compile>
         <Compile Include="ContentContrls\TextBlock.xaml.cs">
           <DependentUpon>TextBlock.xaml</DependentUpon>
         </Compile>
@@ -87,6 +90,9 @@
         </Compile>
         <Compile Include="ContentContrls\GroupBoxDemo.xaml.cs">
           <DependentUpon>GroupBoxDemo.xaml</DependentUpon>
+        </Compile>
+        <Compile Include="ContentContrls\TextBoxDemo.xaml.cs">
+          <DependentUpon>TextBoxDemo.xaml</DependentUpon>
         </Compile>
         <Compile Include="ContentContrls\ToolTipDemo.xaml.cs">
           <DependentUpon>ToolTipDemo.xaml</DependentUpon>
@@ -156,11 +162,13 @@
         <Page Include="ContentContrls\CheckBoxDemo.xaml" />
         <Page Include="ContentContrls\LabelDemo.xaml" />
         <Page Include="ContentContrls\RadioButtonDemo.xaml" />
+        <Page Include="ContentContrls\RichTextBoxDemo.xaml" />
         <Page Include="ContentContrls\TextBlock.xaml" />
         <Page Include="ContentContrls\CheckBoxDemo1.xaml" />
         <Page Include="ContentContrls\ExpanderDemo.xaml" />
         <Page Include="ContentContrls\FrameDemo.xaml" />
         <Page Include="ContentContrls\GroupBoxDemo.xaml" />
+        <Page Include="ContentContrls\TextBoxDemo.xaml" />
         <Page Include="ContentContrls\ToolTipDemo.xaml" />
         <Page Include="CustomControls\CustomControls.xaml" />
         <Page Include="DataBinging\WindowDataBinding.xaml" />

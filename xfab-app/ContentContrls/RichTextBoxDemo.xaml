@@ -1,0 +1,24 @@
+﻿<Window x:Class="xfab_app.ContentContrls.RichTextBoxDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.ContentContrls"
+        mc:Ignorable="d"
+        Title="RichTextBoxDemo" Height="450" Width="800">
+    <Grid>
+        <RichTextBox Name="richTB">
+            <FlowDocument>
+                <Paragraph TextIndent="20">
+                    <Run>Paragraph 1</Run>
+                </Paragraph>
+                <Paragraph>
+                    <Run>Paragraph 2</Run>
+                </Paragraph>
+                <Paragraph>
+                    <Run>Paragraph 3</Run>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+    </Grid>
+</Window>

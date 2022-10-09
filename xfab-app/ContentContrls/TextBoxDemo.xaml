@@ -1,0 +1,15 @@
+﻿<Window x:Class="xfab_app.ContentContrls.TextBoxDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:xfab_app.ContentContrls"
+        mc:Ignorable="d"
+        Title="TextBoxDemo" Height="450" Width="800">
+    <Grid>
+        <!-- 表示一个控件，可用于显示或编辑无格式文本 -->
+        <TextBox Name="tbSettingText" Text="文本控件" FontSize="20" Foreground="Brown" VerticalAlignment="Center" HorizontalAlignment="Center" SelectionBrush="Teal">  
+        </TextBox> 
+        <Button Click="ButtonBase_OnClick" Width="100" Height="50" VerticalAlignment="Top" HorizontalAlignment="Center">active</Button>
+    </Grid>
+</Window>
